@@ -878,18 +878,14 @@
         margin-left: 20px;
     }
     .sect4{
-        padding-top: 30px;
         height:155dvh;
         width: 100%;
         background-image: url(./janmultimedia/backgr2.jpg);
         background-size: cover;
-        
     }
     .sect4 > h1{
         color: white;
         font-size: 35px;
-        margin-left: 40px;
-    
     }
     .sect4 > div{
         /* border: 1px solid; */
@@ -925,10 +921,9 @@
         height: 50px;
         width: 170px;
         background-color: white;
-        margin-top: 10px;
+        margin-top: 0px;
         font-size: 20px;
         border-radius:25px ;
-        margin-left: 70px;
     }
     .div6{
         /* border: 1px solid; */
