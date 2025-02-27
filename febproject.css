@@ -878,6 +878,7 @@
         margin-left: 20px;
     }
     .sect4{
+        justify-content: center;
         height:155dvh;
         width: 100%;
         background-image: url(./janmultimedia/backgr2.jpg);
@@ -887,7 +888,7 @@
     .sect4 > h1{
         color: white;
         font-size: 35px;
-        text-align: center;
+        /* text-align: center; */
     
     }
     .sect4 > div{
@@ -927,7 +928,6 @@
         margin-top: 10px;
         font-size: 20px;
         border-radius:25px ;
-        align: center;
     }
     .div6{
         /* border: 1px solid; */
