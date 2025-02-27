@@ -1,0 +1,1241 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.nav1{
+    /* border: 1px solid; */
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    padding: 20px 40px;
+    display: flex; 
+    align-items: center;
+    position: fixed;
+    top: 0px;
+}
+.nav1 > .img1{
+    height: 17px;
+    display: none;
+}
+.nav1 > .img2{
+    height: 18px;
+    margin-right: 50px;
+    /* margin-left:20px; */
+
+}
+.nav1 > ul{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    margin-right: 150px;
+}
+.aaa1{
+    text-decoration: none;
+    color: rgb(69, 101, 133);
+    font-size: 16px;
+}
+.aaa1:hover{
+        text-decoration: underline;
+        text-decoration-color: blue;
+        text-decoration-thickness: 0px;
+}
+.nav1 > div a{
+    text-decoration: none;
+    color: rgb(69, 101, 133);
+    margin-left: 230px;
+    font-size: 16px;
+}
+.nav1 > div i{
+    text-decoration: none;
+    color: rgb(69, 101, 133);
+    margin-left: 20px;
+    margin-top: 7px;
+    font-size: 20px;
+}
+.sect1{
+    width: 100%;
+    height: 660px;
+    align-content: center;
+    margin-top: 75px;
+    background-image: url(./janmultimedia/459500835_3295293567271639_2625557031192985392_n.png);
+    background-size: cover;
+}
+.div1{
+    /* border: 1px solid; */
+    height: 380px;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+.div1 > h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+    line-height: 70px;
+    
+}
+.div1 > p{
+    font-size: 20px;
+    color: rgb(54, 72, 95);
+}
+.div1 > img{
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.div2{
+    /* border: 1px solid; */
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 70px;
+}
+.div2 > :first-child{
+    /* border: 1px solid ; */
+    width: 50%;
+    height: 350px;
+}
+.div2 > :last-child{
+    /* border: 1px solid ; */
+    width: 40%;
+    height: 350px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.div2 > :first-child > img{
+    height: 300px;
+    width: 100%;
+}
+.div2 > :last-child > h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.div2 > :last-child > p{
+    font-size: 21px;
+    color: rgb(77, 103, 122);
+    margin-top: 10px;
+}
+.div2 > :last-child > a > button{
+    border: 1px solid;
+    height: 45px;
+    width: 125px;
+    background-color:rgb(0, 100, 224) ;
+    color: white;
+    font-size: 17px;
+    border-radius: 70px;
+
+}
+.div3{
+    /* border: 1px solid; */
+    height: 10rem;
+    width: 90%;
+    margin: auto; 
+}
+.div3 > h1{
+    font-size: 40px;
+}
+.div3 > p{
+    font-size: 18px;
+    color: rgb(77, 103, 122);
+}
+.sect2{
+    /* border: 1px solid; */
+    min-height: 85dvh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+.sect2 > div{
+    /* border: 1px solid; */
+    width: 32%;
+    height: 30rem;
+    border-radius: 20px;
+    background-color: rgb(248, 249, 251);
+    cursor: pointer;
+}
+.sect2 > div > div{
+    /* border: 1px solid; */
+    width: 100%;
+    height: 280px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+
+}
+.sect2 > div > div > img{
+    height: 285px;
+    cursor: pointer;
+    transition: 1s;
+}
+.sect2 > div > div > img:hover{
+    transform: scale(1.1);
+}
+.hhh{
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 30px;
+}
+.para2{
+    font-size: 18px;
+    color: rgb(77, 103, 122);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.aaa2{
+    color:rgb(0, 0, 255);
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 19px;
+}
+.sect3{
+    /* border: 1px solid; */
+    min-height: 100dvh;
+    width: 100%;
+    margin-top: 40px;
+}
+.div4{
+    /* border: 1px solid; */
+    width: 90%;
+    margin: auto;
+    height: 130px;
+}
+.div5{
+    /* border: 1px solid ; */
+    min-height: 30rem;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+    overflow: scroll;
+    
+}
+.div4 > h1{
+    font-size: 40px;
+    font-weight: 540;
+}
+.div4 > button{
+    border: 1px solid rgb(186, 187, 187);
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    position: relative;
+    bottom: 75px;
+    left: 88%;
+    background-color: transparent;
+    font-size: 12px;
+    margin-right: 15px;
+}
+.ddd5a{
+    /* border: 1px solid; */
+    min-width: 32rem;
+    height: 42rem;
+}
+.ddd5a > div{
+    /* border: 1px solid; */
+    height: 26rem;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.ddd5a > div > img{
+    height: 25.8rem;
+    width: 100%;
+}
+.ddd5b{
+    /* border: 1px solid; */
+    min-width: 26rem;
+    height:42rem ;
+}
+
+.sss{
+    /* border: 1px solid; */
+    height: 24rem;
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.sss > img{
+    height:24rem ;
+    width: 100%;
+    border-radius: 30px;
+}
+.paa{
+    font-size: 12px;
+    letter-spacing:1px;
+    font-weight: bold;
+    color: rgb(56, 66, 73);
+}
+.headgen{
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.pbb{
+    font-size: 20px;
+    color: rgb(77, 103, 122);
+    margin-right: 30px;
+    margin-top: 10px;
+    line-height: 25px;
+}
+.butgen{
+    border: 1px solid rgb(186, 187, 187);
+    height: 45px;
+    width: 130px;
+    border-radius: 30px;
+    font-size: 14px;
+    background-color: transparent;
+    color: rgb(77, 103, 122);
+}
+.sect4{
+    /* border: 1px solid; */
+    height:105dvh;
+    width: 100%;
+    background-image: url(./janmultimedia/backgr.jpg);
+    background-size: cover;
+    align-content: center; 
+    justify-items: center;
+}
+.sect4 > h1{
+    color: white;
+    font-size: 50px;
+}
+.sect4 > div{
+    /* border: 1px solid; */
+    height: 260px;
+    width: 80%;
+    display:flex;
+    margin-top: 20px;
+    gap: 2rem;
+    justify-content: center;
+    
+}
+.ojo{
+    /* border: 1px solid; */
+    height: 16rem;
+    width: 30%;
+    background-color: white;
+    border-radius: 15px;
+}
+.ojo > h1{
+    font-size: 40px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+.ojo > p{
+    font-size: 17px;
+    color: rgb(77, 103, 122);
+    margin-left: 35px;
+    margin-right: 40px;
+    line-height: 25px;
+}
+.sect4but{
+    height: 45px;
+    width: 160px;
+    background-color: white;
+    margin-top: 30px;
+    font-size: 17px;
+    border-radius:30px ;
+    cursor: pointer;
+}
+.sect4but:hover{
+    color: rgb(77, 103, 122); ;
+}
+.div6{
+    /* border: 1px solid; */
+    height:14rem;
+    width: 90%;
+    margin: auto;
+    background-color: #f0f4f7;
+    border-radius: 60px;
+    margin-top: 70px;
+    padding-top: 2px;
+}
+.div6 > h1{
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    left: 100px;
+    top: 22px;
+}
+.div6 > p{
+    font-size: 20px;
+    position: relative;
+    left: 100px;
+    top: 18px;
+}
+.div6 > .aaa11 > button{
+    border: 1px solid rgb(186, 187, 187);
+    height: 40px;
+    width: 190px;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    left: 50rem;
+    bottom: 6rem;
+}
+.div6 > .aaa22 > button{
+    border: 1px solid rgb(186, 187, 187);
+    height: 40px;
+    width: 165px;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    left: 38rem;
+    bottom: 2.5rem;
+}
+.sect5{
+    /* border: 1px solid; */
+    height: 90dvh;
+    width: 100%;
+    margin-top: 50px;
+}
+.sect5 > :first-child{
+    /* border: 1px solid; */
+    padding-top: 1px;
+    width: 90%;
+    height: 110px;
+    margin: auto;
+}
+.sect5 > :first-child > h1{
+    font-size: 50px;
+}
+.sect5 > :last-child{
+    /* border: 1px solid blue; */
+    height: 65dvh;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+}
+.genn{
+    /* border: 1px solid; */
+    height: 24rem;
+    width: 50%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.genn > img{
+    height: 24rem;
+    width: 100%;
+    transition: all 1s;
+}
+.genn > img:hover{
+    transform: scale(1.1);
+}
+.tuuu{
+    /* border: 1px solid; */
+    height: 24rem;
+    width: 50%;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.tuuu > span{
+    font-size: 13px;
+    color: rgb(77, 103, 122);
+}
+.tuuu > h1{
+    font-size: 38px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tuuu > .pppp1{
+    font-size: 20px;
+    color: rgb(77, 103, 122);
+    line-height: 27px;
+}
+.tuuu > .pppp2{
+    font-size: 20px;
+    line-height: 27px;
+}
+.sect6{
+    /* border: 1px solid; */
+    height: 90dvh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 20px;
+}
+.sect6 > div{
+    /* border: 1px solid; */
+    height:90dvh;
+    width: 27%;
+}
+.sect6 > div > div{
+    /* border:1px solid; */
+    height: 15rem;
+    width: 100%;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.sect6 > div > div > img{
+    height: 15rem;
+    width: 100%;
+    transition: all 1s;
+}
+.sect6 > div > div > img:hover{
+    transform: scale(1.1);
+}
+.sect6 > div > span{
+    font-size: 12px;
+    color: #9fa2b1;
+}
+.sect6 > div > h1{
+    font-size: 27px;
+    font-weight: lighter;
+}
+.sect6 > div > .oboy1{
+    font-size: 20px;
+    color: rgb(77, 103, 122);
+}
+.sect6 > div > .oboy2{
+    font-size: 20px;
+}
+.sect7{
+    /* border: 1px solid; */
+    width: 100%;
+    height:91dvh ;
+    padding-top: 50px;
+    margin-top: 10px;
+}
+.sect7 > .hr1{
+    border-top: 1px solid #9fa2b1;
+    width: 90%;
+    margin: auto;
+}
+.sect7 > a > button{
+    border: 1px solid;
+    height: 45px;
+    width: 160px;
+    background-color:#0064e0;
+    border-radius:25px ;
+    color: white;
+    position: relative;
+    left: 33rem;
+    bottom: 25px;
+    font-size: 16px;
+}
+.sect7 > a > button:hover{
+    background-color: blue;
+}
+.sect7 > div{
+    border: 1px solid;
+    height: 220px;
+    margin: auto;
+    width: 90%;
+    border-radius: 60px;
+    background-color: #1c2a33;
+    padding-left: 60px;
+    margin-top: 50px;
+}
+.sect7 > div > div{
+    /* border: 1px solid; */
+    width: 40%;
+    height:150px;
+    margin-top: 50px;
+}
+.sect7 > div > div > h1{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: white;
+}
+.sect7 > div > div > p{
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+.sect7 > div > a > button{
+    height: 50px;
+    width: 90px;
+    font-size: 17px;
+    position: relative;
+    left: 55rem;
+    bottom: 7rem;
+    border-radius:50px ;
+}
+.sect7 > .hr2{
+    border-top: 1px solid #9fa2b1;
+    width: 100%;
+    margin-top: 170px;
+}
+.sect8{
+    /* border: 1px solid ; */
+    min-height: 60dvh;
+    width: 100%;
+    margin-top: 10px;
+}
+.sect8 > .divaa{
+    /* border: 1px solid; */
+    width: 80%;
+    margin: auto;
+    height: 40dvh;
+    display: flex;
+    justify-content: space-around;
+}
+.bami{
+    /* border: 1px solid; */
+    height: 10rem;
+    width: 25%;
+    margin-top: 20px;
+}
+.bami > .www{
+    height: 17px;
+    display: block;
+    margin-bottom: 4rem;
+}
+.bami > a img{
+    height: 25px;
+    margin-right: 10px;
+}
+.sect8 .divaa > ul {
+    list-style-type: none;
+    line-height: 25px;
+}
+.sect8 .divaa > ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color:#89919e ;
+}
+.news{
+    margin-top: 17px;
+}
+.dele{
+    /* border: 1px solid; */
+    height: 10rem;
+    width: 25%;
+    margin-top: 20px;
+    display: none;
+}
+.dele a img{
+    height:25px;
+    margin-right: 10px;
+}
+.sect8 > hr{
+    border-top: 1px solid  #555657;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.divbb{
+    /* border: 1px solid; */
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    align-content: center;
+}
+.divbb > span{
+    margin-right: 20rem;
+}
+.divbb > a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-right: 25px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 450px) {
+    .nav1{
+        height: 70px;
+        align-items: center;
+        gap: 10px;
+        padding-left: 5px;
+        width: 100%;
+        background-color: white;
+    }
+    .nav1 > .img1{
+        height: 15px;
+        display: block;
+    }
+    
+    .nav1 > ul{
+    display: none;
+    }
+    .nav1 > div{
+        display: none;
+    }
+    .sect1{
+        width: 100%;
+        height: 400px;
+        background-image: linear-gradient(to right, rgb(242, 229, 247), rgb(213, 236, 254));
+        background-size: cover;
+    }
+
+    .div1{
+        height: 300px;
+        width: 80%;
+        text-align: center;
+    }
+    .div1 > h1{
+        font-size: 35px;
+        margin-bottom: 5px;
+        /* letter-spacing: 1px; */
+    }
+    .div1 > p{
+        font-size: 21px;
+        color: rgb(54, 72, 95);
+        margin-top: 5px;
+    }
+    .div1 > img{
+        height: 45px;
+    }
+    .div2{
+        /* border: 1px solid; */
+        height: 440px;
+        width: 100%;
+        display: block;
+        margin-top: 40px;
+    }
+    .div2 > :first-child{
+        /* border: 1px solid ; */
+        width: 100%;
+        height: 220px;
+        margin-bottom: 10px;
+    }
+    .div2 > :last-child{
+        /* border: 1px solid; */
+        width: 100%;
+        height: 200px;
+        padding-left:20px;
+        padding-top: 0%;
+        padding-right: 50px;
+    }
+    .div2 > :first-child > img{
+        height: 200px;
+        width:90%;
+        margin-left: 20px;
+    }
+    .div2 > :last-child > h1{
+        font-size: 30px;
+        margin: 0%;
+    }
+    .div2 > :last-child > p{
+        font-size: 22px;
+    }
+    .div3{
+        /* border: 1px solid; */
+        width: 100%;
+        padding-left:20px ;
+        margin-top: 0px;
+        height: 9rem;
+    }
+    .div3 > h1{
+        font-size: 28px;
+    }
+    .div3 > p{
+        font-size: 20px;
+        color: rgb(77, 103, 122);
+        
+    }
+    .sect2{
+        /* border: 1px solid; */
+        min-height: 100dvh;
+        width: 100%;
+        display: block;
+        row-gap: 20px;
+    }
+    .sect2 > div{
+        /* border: 1px solid; */
+        width: 90%;
+        margin-left: 20px;
+        margin-bottom:30px ;
+        height: 31rem;
+        border-radius: 20px;
+        background-color: rgb(248, 249, 251);
+    }
+    .sect2 > div > div{
+        /* border: 1px solid; */
+        width: 100%;
+        height: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        overflow: hidden;
+    }
+    .sect2 > div > div > img{
+        height: 350px;
+        cursor: pointer;
+        transition: 2s;
+    }
+    .hhh{
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    .para2{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .aaa2{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .sect3{
+        /* border: 1px solid; */
+        min-height: 106dvh;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .div4{
+        /* border: 1px solid; */
+        width: 100%;
+        height: 150px;
+        padding-left: 20px;
+    }
+    .div5{
+        /* border: 1px solid blue; */
+        height: 45rem;
+        width: 100%;
+        display: flex;
+        gap: 3rem;
+        overflow: scroll;
+        
+    }
+    .div4 > h1{
+        font-size: 30px;
+    }
+    .div4 > button{
+        border: 1px solid rgb(186, 187, 187);
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        position: relative;
+        top: 0px;
+        left: 0%;
+    }
+    .ddd5a{
+        /* border: 1px solid; */
+        min-width: 100%;
+        height: 45rem;
+    }
+    .ddd5a > div{
+        /* border: 1px solid; */
+        height: 19rem;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .ddd5a > div > img{
+        height: 19rem;
+        width: 100%;
+    }
+    .ddd5b{
+        /* border: 1px solid blue; */
+        min-width: 100%;
+        height:45rem ;
+    }
+    .sss{
+        /* border: 1px solid; */
+        height: 19rem;
+        width: 100%;
+        border-radius: 0px;
+        margin-bottom: 30px;
+    }
+    .sss > img{
+        height:19rem ;
+        width: 100%;
+        border-radius: 0px;
+    }
+    .paa{
+        font-size: 13px;
+        letter-spacing:1px;
+        color: rgb(56, 66, 73);
+        margin-left: 20px;
+    }
+    .headgen{
+        font-size: 27px;
+        font-weight: lighter;
+        margin-bottom: 10px;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+    .pbb{
+        font-size: 21px;
+        color: rgb(77, 103, 122);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .butgen{
+        border: 1px solid rgb(186, 187, 187);
+        height: 40px;
+        width: 150px;
+        border-radius: 30px;
+        font-size: 17px;
+        background-color: transparent;
+        color: rgb(77, 103, 122);
+        margin-left: 20px;
+    }
+    .sect4{
+        height:155dvh;
+        width: 100%;
+        background-image: url(./janmultimedia/backgr2.jpg);
+        background-size: cover;
+    }
+    .sect4 > h1{
+        color: white;
+        font-size: 35px;
+    }
+    .sect4 > div{
+        /* border: 1px solid; */
+        height: 110dvh;
+        width: 100%;
+        display:block;
+        margin-top:0px;
+    }
+    .ojo{
+        height: 15rem;
+        width: 80%;
+        background-color: white;
+        border-radius: 15px;
+        margin: auto;
+        padding-top: 5px;
+        margin-top: 2rem;
+        
+    }
+    .ojo > h1{
+        font-size: 35px;
+        margin-left: 35px;
+        margin-bottom: 10px;
+        letter-spacing: 2px;
+    }
+    .ojo > p{
+        font-size: 20px;
+        color: rgb(77, 103, 122);
+        margin-left: 35px;
+        margin-right: 30px;
+        line-height: 30px;
+    }
+    .sect4but{
+        height: 50px;
+        width: 170px;
+        background-color: white;
+        margin-top: 0px;
+        font-size: 20px;
+        border-radius:25px ;
+    }
+    .div6{
+        /* border: 1px solid; */
+        height:23rem;
+        width: 90%;
+        margin: auto;
+        background-color: #f0f4f7;
+        border-radius: 30px;
+        margin-top: 60px;
+        padding-right: 20px;
+        padding-left: 25px;
+    }
+    .div6 > h1{
+        font-size: 30px;
+        position: relative;
+        left: 0px;
+        top: 30px;
+    }
+    .div6 > p{
+        font-size: 20px;
+        position: relative;
+        left: 0px;
+        top: 35px;
+    }
+    .div6 > .aaa11 > button{
+        border: 1px solid rgb(186, 187, 187);
+        height: 40px;
+        width: 170px;
+        font-size: 15px;
+        background-color: white;
+        border-radius: 30px;
+        position: relative;
+        left: 0px;
+        bottom: 0rem;
+        top: 50px;
+    }
+    .div6 > .aaa22 > button{
+        border: 1px solid rgb(186, 187, 187);
+        height: 40px;
+        width: 150px;
+        font-size: 15px;
+        background-color: white;
+        border-radius: 30px;
+        position: relative;
+        left: 0px;
+        bottom: 0rem;
+        top: 65px;
+    }
+    .sect5{
+        /* border: 1px solid; */
+        height: 105dvh;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .sect5 > :first-child{
+        /* border: 1px solid; */
+        width: 90%;
+        height: 130px;
+        margin: auto;
+    }
+    .sect5 > :first-child > h1{
+        font-size: 35px;
+    }
+    .sect5 > :last-child{
+        /* border: 1px solid blue; */
+        height:85dvh;
+        width: 100%;
+        margin-top: 10px;
+        display: block;
+    }
+    .genn{
+        /* border: 1px solid; */
+        height: 16rem;
+        width: 90%;
+        margin: auto;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    .genn > img{
+        height: 16rem;
+        width: 100%;
+        transition: all 1s;
+    }
+    .genn > img:hover{
+        transform: scale(1);
+    }
+    .tuuu{
+        /* border: 1px solid; */
+        height: 25rem;
+        width: 90%;
+        margin: auto;
+        padding-top: 40px;
+        padding-left: 0px;
+    }
+    .tuuu > span{
+        font-size: 13px;
+        color: rgb(77, 103, 122);
+        letter-spacing: 1px;
+    }
+    .tuuu > h1{
+        font-size: 25px;
+    }
+    .tuuu > .pppp1{
+        font-size: 22px;
+        color: rgb(77, 103, 122);
+    }
+    .tuuu > .pppp2{
+        font-size: 22px;
+    }
+    .sect6{
+        /* border: 1px solid; */
+        height: 225dvh;
+        width: 100%;
+        display: block;
+        justify-items: center;
+        gap: 0;
+        margin-top: 10px;
+    }
+    .sect6 > div{
+        /* border: 1px solid; */
+        height:75dvh;
+        width: 90%;
+    }
+    .sect6 > div > div{
+        /* border:1px solid; */
+        height: 15rem;
+        width: 100%;
+        border-radius: 20px;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    .sect6 > div > div > img{
+        height: 15rem;
+        width: 100%;
+        /* transition: all 1s; */
+    }
+    .sect6 > div > div > img:hover{
+        transform: scale(1);
+    }
+    .sect6 > div > span{
+        font-size: 13px;
+        color: #9fa2b1;
+    }
+    .sect6 > div > h1{
+        font-size: 22px;
+        font-weight: lighter;
+    }
+    .sect6 > div > .oboy1{
+        font-size: 21px;
+        line-height: 25px;
+        color: rgb(77, 103, 122);
+    }
+    .sect6 > div > .oboy2{
+        font-size: 21px;
+    }
+    .sect7{
+        /* border: 1px solid; */
+        width: 100%;
+        height:68dvh ;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .sect7 > .hr1{
+        border: 1px solid #9fa2b1;
+        width: 90%;
+        margin: auto;
+    }
+    .sect7 > a > button{
+        border: 1px solid;
+        height: 45px;
+        width: 160px;
+        background-color:#0064e0;
+        border-radius:25px ;
+        color: white;
+        position: relative;
+        left: 6rem;
+        bottom: 25px;
+        font-size: 16px;
+    }
+    .sect7 > div{
+        /* border: 1px solid blue; */
+        height: 300px;
+        margin: auto;
+        width: 90%;
+        border-radius: 20px;
+        background-color: #1c2a33;
+        padding-left: 20px;
+        margin-top: 50px;
+    }
+    .sect7 > div > div{
+        /* border: 1px solid; */
+        width: 90%;
+        height:130px;
+        margin-top: 40px;
+    }
+    .sect7 > div > div > h1{
+        font-size: 30px;
+        margin-bottom: 15px;
+        color: white;
+    }
+    .sect7 > div > div > p{
+        font-size: 20px;
+        color: white;
+        margin-top: 15px;
+    }
+    .sect7 > div > a > button{
+        height: 50px;
+        width: 110px;
+        font-size: 19px;
+        position: relative;
+        left: 0px;
+        bottom: 0rem;
+        top: 2rem;
+        border-radius:30px ;
+    }
+    .sect7 > .hr2{
+        border: 1px solid #9fa2b1;
+        width: 100%;
+        margin-top: 100px;
+    }
+    .sect8{
+        /* border: 1px solid ; */
+        min-height: 90dvh;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .sect8 > .divaa{
+        /* border: 1px solid; */
+        width: 100%;
+        height: 105dvh;
+        display: block;
+        justify-content: space-around;
+        padding-left: 20px;
+    }
+    .bami{
+        /* border: 1px solid; */
+        height: 2rem;
+        width: 40%;
+        margin-top: 0px;
+    }
+    .bami > .www{
+        height: 20px;
+        display: block;
+        margin-bottom: 0rem;
+    }
+    .bami > a img{
+        height: 25px;
+        margin-right: 10px;
+        display: none;
+    }
+    .sect8 .divaa > ul {
+        list-style-type: none;
+        line-height: 30px;
+        
+    }
+    .sect8 .divaa > ul li a{
+        text-decoration: none;
+        font-size: 18px;
+        color:#9a9ea7 ;
+    }
+    .sect8 .divaa > ul li{
+        font-size: 20px;
+    }
+    .news{
+        margin-top: 20px;
+    }
+    .dele{
+        /* border: 1px solid; */
+        height: 6rem;
+        width: 60%;
+        margin-top: 60px;
+        display: block;
+    }
+    .dele a img{
+        height:25px;
+        margin-right: 10px;
+    }
+    .sect8 > hr{
+        border-top: 1px solid  #555657;
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .divbb{
+        /* border: 1px solid; */
+        height: 18rem;
+        width: 100%;
+        margin: auto;
+        margin-top: 40px;
+        align-content: normal;
+        padding-left: 20px;
+    }
+    .divbb > span{
+        margin-right: 0rem;
+        display: block;
+        margin-bottom: 50px;
+        font-size: 18px;
+        color: #8c8c8c;
+    }
+    .divbb > a{
+        text-decoration: none;
+        color: #8c8c8c;
+        font-size: 18px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        display: block;
+        
+    }
+    .divbb > :last-child{
+        margin-top: 50px;
+    }
+
+    
+
+}
