@@ -882,6 +882,7 @@
         width: 100%;
         background-image: url(./janmultimedia/backgr2.jpg);
         background-size: cover;
+        justify-items: center;
     }
     .sect4 > h1{
         color: white;
